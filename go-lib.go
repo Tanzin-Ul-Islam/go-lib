@@ -6,6 +6,6 @@ import (
 )
 
 // Convert string to upercase
-func upperCase(a string) {
+func ConvertToUpper(a string) {
 	fmt.Println(strings.ToUpper(a))
 }
