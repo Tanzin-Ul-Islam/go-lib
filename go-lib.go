@@ -1,16 +1,11 @@
-/**
- * Author: Mitch Allen
- * File: go-lib.go
- */
-
 package lib
 
-// Returns the sum of two numbers
-func Add(a int, b int) int {
-	return a + b
-}
+import (
+	"fmt"
+	"strings"
+)
 
-// Returns the difference between two numbers
-func Subtract(a int, b int) int {
-	return a - b
+// Convert string to upercase
+func upperCase(a string) {
+	fmt.Println(strings.ToUpper(a))
 }
